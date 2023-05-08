@@ -32,6 +32,11 @@ flex-direction: column;
 align-items: center;
 }
 
+.row{
+    display: flex;
+    /* flex-direction: column; */
+}
+
 body {
     background-color: blue;
 }
@@ -110,6 +115,9 @@ border-radius: 50%;
 form{
     width: 300px;
     margin-left: 20px;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 10%;
 
 }
 form label{
