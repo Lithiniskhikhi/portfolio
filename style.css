@@ -6,8 +6,15 @@
 #navbar{
 
 background-color: #000;
+height: 7rem;
+
 
 }
+
+h1,h4 {
+    text-align: center;
+}
+
 #nav__link{
 display: flex;
 list-style: none;
@@ -22,7 +29,16 @@ bottom: 3rem;
 text-decoration: none;
 padding: 10px;
 color: #f1efef;
+
 }
+.nav__links a {
+	background-color: black;
+}
+
+.nav__links > a:hover {
+	background-color: rgb(148, 106, 211);
+}
+
 .navbar__logo{
 width: 9rem;
 }
@@ -103,6 +119,8 @@ align-items: center;
 }
 img {
 border-radius: 50%;
+width: 5rem;
+height: 5rem;
 }
 .login-box{
     width: 360px;
@@ -163,6 +181,10 @@ p{
 h4{
     text-align: center;
 }*/
+.facebook{
+    color: #f1eaea;
+    background-color: #f1efef;
+}
 
 
 
